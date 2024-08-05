@@ -15,8 +15,9 @@ If the path returned by whereis 0gchaind is different from the path you are curr
 `./init-cosmovisor.sh (0G_HOME)`
 ### Step 5: Start 0gchaind Using Cosmovisor
 Start 0gchaind using Cosmovisor with the following command:
+
 `
-cosmovisor start [flags]
+cosmovisor run start [flags]
 `
 ## Troubleshooting
 If you encounter any issues, run the following command to check the Cosmovisor configuration:
